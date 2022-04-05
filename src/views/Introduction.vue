@@ -2,17 +2,19 @@
   <v-card>
     <v-flex d-flex flex-column align-center justify-center style="height:100vh;">
       <h3
-        style="font-weight:normal;font-size:28px; margin-bottom:1rem;"
+        style="font-size:30px;"
+        class="font-weight-light mb-3"
       >Introverts enjoy people-watching. Extroverts enjoy people watching - Jonny Sun</h3>
       <h2
-        style="font-weight:600;font-size:2.5rem; margin-bottom:1rem;"
+        style="font-size:33px;"
+        class="font-weight-bold mb-3"
+        
       >ARE YOU INTROVERT OR EXTROVERT?</h2>
       <v-btn
         color="warning"
-        style="color:black; background-color:blue;text-transform:capitalize;"
         x-large
-        class="mt-2 px-8"
-        @click="routerOpen"
+        class="mt-2 px-8 text-capitalize"
+        @click="questionRoute"
       >Let's Start</v-btn>
     </v-flex>
   </v-card>
@@ -27,12 +29,9 @@ export default {
     }
   },
   methods: {
-    routerOpen() {
+     questionRoute() {
       this.$router.push('/question');
-
-      // this.$router.push('/PersonalityQuestion');
     },
-
   },
 }
 </script>

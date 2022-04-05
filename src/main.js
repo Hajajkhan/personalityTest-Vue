@@ -12,7 +12,6 @@ Vue.use(Router);
 const routes = [
   { path: "", component: PersonalityIntroduction },
   { path: "/question", component: StepperQuestion },
-
   { path: "/result/:id", component: PersonalityEvaluation },
 ];
 
