@@ -7,7 +7,6 @@ The project primarily uses following technologies:
 - Create Vue App
 - Vuetify
 - Vue router
-- JavaScript
 
 ## UI and Features
 ![git1](https://user-images.githubusercontent.com/94684731/161928287-b5cd3d59-2888-4c58-b177-6d6d557df7c8.png)
@@ -26,11 +25,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
