@@ -14,8 +14,6 @@ The project primarily uses following technologies:
 ![git2](https://user-images.githubusercontent.com/94684731/161928312-c7ded207-81e8-4c84-9a75-83c53c867a12.png)
 ![git3](https://user-images.githubusercontent.com/94684731/161928333-160b3263-a58d-48e4-bd5f-4b338f6f20cb.png)
 
-
-
 ## Project setup
 ```
 npm install
@@ -25,7 +23,6 @@ npm install
 ```
 npm run serve
 ```
-
 ### Compiles and minifies for production
 ```
 npm run build
@@ -38,3 +35,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
