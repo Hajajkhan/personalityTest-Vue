@@ -119,6 +119,8 @@ body {
     #e94057 40%,
     #8a2387 80%
   );
+  /* background-image: url('../bg.jpg');
+  background-size: cover; */
 }
 .v-application {
   background-color: transparent !important;
