@@ -5,11 +5,7 @@
         style="font-size:30px;"
         class="font-weight-light mb-3"
       >Introverts enjoy people-watching. Extroverts enjoy people watching - Jonny Sun</h3>
-      <h2
-        style="font-size:33px;"
-        class="font-weight-bold mb-3"
-        
-      >ARE YOU INTROVERT OR EXTROVERT?</h2>
+      <h2 style="font-size:33px;" class="font-weight-bold mb-3">ARE YOU INTROVERT OR EXTROVERT?</h2>
       <v-btn
         color="warning"
         x-large
@@ -23,13 +19,8 @@
 <script>
 export default {
   name: 'PersonalityIntroduction',
-  data() {
-    return {
-      title: "",
-    }
-  },
   methods: {
-     questionRoute() {
+    questionRoute() {
       this.$router.push('/question');
     },
   },
